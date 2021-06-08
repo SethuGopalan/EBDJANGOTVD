@@ -1,3 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+
+def techvrApps(request):
+    return render(request, 'techvrApps.html', {})
