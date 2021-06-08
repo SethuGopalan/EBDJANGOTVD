@@ -2,5 +2,5 @@ from django.shortcuts import render
 
 
 
-def techvrApps(request):
-    return render(request, 'techvrApps.html', {})
+def TechVrDev(request):
+    return render(request, 'techVrDev.html', {})

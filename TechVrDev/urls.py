@@ -1,6 +1,6 @@
 from django.urls import path
-from hello_world import views
+from TechVrDev import views
 
 urlpatterns = [
-    path('', views.hello_world, name='techvrApps'),
+    path("", views.TechVrDev, name="TechVrDev"),
 ]
