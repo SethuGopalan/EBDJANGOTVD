@@ -1,6 +1,6 @@
 from django.db import models
 
-class TechVrDev(models.Model):
+class TechVrDevapp(models.Model):
     title = models.CharField(max_length=240)
     description =models.TextField()
     technology = models.CharField(max_length=100)
