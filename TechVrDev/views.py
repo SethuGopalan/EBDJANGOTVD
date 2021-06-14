@@ -4,14 +4,14 @@ from TechVrDev.models import TechVrDevapp
 
 
 def TechVrDev(request):
-    return render(request, 'techVrDev.html', {})
+    return render(request, 'TechVrDev.html', {})
 
 def TechVrDev_intex(request):
     TechVrDev = TechVrDevapp.objects.all()
     context = {
         'TechVrDev': TechVrDev
     }
-    return render(request,'TechVrDev_intex',context)
+    return render(request,'TechVrDev_intex.html',context)
 
 def TechVrDev_detail(request, pk):
     TechVrDev = TechVrDevapp.objects.get(pk= pk)
